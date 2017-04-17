@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".telefon_1"
+    android:background="@drawable/bgr2">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="iPhone 6 Plus"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/image1"
+        android:layout_alignStart="@+id/image1" />
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="250dp"
+        android:id="@+id/image1"
+        android:src="@drawable/ip6plus"
+        android:padding="3dp"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RAM 2 GB"
+        android:textSize="20dp"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView5"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Storage 16 GB"
+        android:textSize="20dp"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OS iOS 9"
+        android:textSize="20dp"
+        android:id="@+id/textView4"
+        android:layout_marginLeft="113dp"
+        android:layout_marginStart="113dp"
+        android:layout_below="@+id/image1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bateria Li-Po 2800 mAh"
+        android:textSize="20dp"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Procesor Apple A9  1,92 GHz "
+        android:textSize="20dp"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/textView6"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_below="@+id/textView7"
+        android:layout_alignRight="@+id/image1"
+        android:layout_alignEnd="@+id/image1"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp" />
+
+
+</RelativeLayout>
